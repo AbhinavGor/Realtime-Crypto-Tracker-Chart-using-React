@@ -1,0 +1,41 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700&display=swap');
+
+.heroMaster{
+    display: flex;
+    flex-direction: column;
+}
+.heroSection {
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #3d5a80;
+    height: 100vh;
+    width: 100vw;
+    justify-content: center;
+    font-family: 'Poppins', sans-serif !important;
+    color: #fdfcdc;
+}
+
+.heroSection h1{
+    padding: 0 0 0.4em 0;
+    text-align: center;
+    align-items: center;
+    font-size: 7em !important;
+    font-weight: 800 !important;
+}
+
+.heroSection h2{
+    text-align: center;
+    align-items: center;
+    font-family: 'Poppins', sans-serif !important;
+    font-weight: bold;
+    color: white;
+}
+
+.heroSection Button {
+    font-weight: bold;
+    font-size: 1.4em;
+    padding: 0.4em 1em;
+    margin: 0.6em;
+}

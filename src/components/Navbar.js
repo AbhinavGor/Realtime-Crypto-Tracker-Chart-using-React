@@ -1,11 +1,11 @@
 import React, { useState, Component } from 'react';
 import { Navbar, Nav, Container, Button } from 'react-bootstrap';
-
+import '../styles/navBar.css'
 export default class Navigation extends Component {
         render(){
             return(
                 <>
-                    <Navbar collapseOnSelect fixed="top" expand="lg" bg="dark" variant="dark">
+                    <Navbar className="navbar" collapseOnSelect fixed="top" expand="lg" bg="dark" variant="dark">
                         <Container>
                             <Navbar.Toggle aria-controls="responsive-navbar-nav" />
                             <Navbar.Collapse id="responsive-navbar-nav">
